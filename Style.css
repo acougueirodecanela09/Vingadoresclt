@@ -1,1 +1,42 @@
+body {
+        font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+                text-align: center;
+                    margin: 0;
+                        padding: 0;
+                        }
 
+                        .container {
+                            margin-top: 50px;
+                            }
+
+                            #game-area {
+                                display: flex;
+                                    justify-content: center;
+                                        margin-bottom: 30px;
+                                        }
+
+                                        .character {
+                                            margin: 0 20px;
+                                                cursor: pointer;
+                                                }
+
+                                                .character img {
+                                                    width: 150px;
+                                                        height: auto;
+                                                            border-radius: 10px;
+                                                                transition: transform 0.3s;
+                                                                }
+
+                                                                .character img:hover {
+                                                                    transform: scale(1.1);
+                                                                    }
+
+                                                                    #dialogue-box {
+                                                                        background-color: #ffffff;
+                                                                            padding: 20px;
+                                                                                border-radius: 10px;
+                                                                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                                                                        max-width: 600px;
+                                                                                            margin: 0 auto;}
+                                                                                            
